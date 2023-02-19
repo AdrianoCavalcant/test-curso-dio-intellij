@@ -7,6 +7,12 @@ public class Gato {
     private String cor;
     private String idade;
 
+    public Gato(String nome, String cor, String idade) {
+        this.nome = nome;
+        this.cor = cor;
+        this.idade = idade;
+    }
+
     public String getNome() {
         return nome;
     }
